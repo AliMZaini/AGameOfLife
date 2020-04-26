@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+/* https://colorhunt.co/palette/180289 */
+body{
+  background: #3b6978;
+  color: #dae1e7;
+}
+
+.cell {
+  display: inline-block;
+  border: 1px solid black;
+  width: 30px;
+  height: 30px;
+  margin-left: -1px;
+  margin-bottom: -1px;
+}
+
+.off {
+  background-color: #dae1e7;
+}
+
+@keyframes turningOn {
+  from {background-color: #dae1e7;}
+  to {background-color: #00909e;}
+}
+
+.on {
+  background-color: #00909e;
+  animation-name: turningOn;
+  animation-duration: 0.25s;
+}
+
+.cell:hover {
+  background: #27496d;
+}
+
+.center {
+  display: table;
+  margin: 10px auto auto;
+}
+
+.grid {
+  width: 150px;
+  line-height: 0;
+  margin: 20px auto auto;
+}
