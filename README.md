@@ -2,7 +2,7 @@
 
 An implementation of John Conway's Game of Life using React.
 
-You can try it here: https://zaini.me/AGameOfLife/
+You can try it here: https://old.zaini.me/AGameOfLife/
 
 ## Todo
 
